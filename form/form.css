@@ -1,0 +1,60 @@
+.container{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+form {
+
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(226, 57, 181);
+
+    
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+   input[type="text"], 
+   input[type="email"], 
+  input[type="password"],
+  input[type="number"],
+  input[type="number"] 
+  {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .input-with-icon {
+    position: relative;
+ }  
+
+.input-icon  {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: gray;
+}
+
+  
+  #button {
+    padding: 10px 20px; 
+     margin-top: 20px; 
+     background-color: #ababbc; 
+    color: white; 
+     border: none; 
+     cursor: pointer;
+  }
+ 
+ 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ce4e8c042.js" crossorigin="anonymous"></script>
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="container">
+    <form id="myform">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="your name">
+
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email">
+        </div>
+        <div class="input-with-icon">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <i class="fa-regular fa-eye input-icon"></i>
+        </div>
+        <div>
+            <label for="phone_number">Phone Number:</label>
+            <input type="number" name="phone_number" id="phone_number">
+        </div>
+        <div>
+            <label for="gender" id="gender">Gender:</label>
+            <input type="radio" name="gender_radio" checked>Male
+            <input type="radio" name="gender_radio">Female
+            <input type="radio" name="gender_radio">Other
+        </div>
+        <div>
+            <label for="language">Language</label>
+             <select name="language" id="language">
+                <option value="">English</option>
+                <option value="">Nepali</option>
+                <option value="">Spanish</option>
+             </select>        
+        </div>
+        <div>
+            <label for="zip_code">Zip Code:</label>
+            <input type="number" name="zip_code" id="zip_code">
+        </div>
+        <div>
+            <label for="about">About:</label>
+            <textarea name="about" id="about" cols="66" rows="2" placeholder=" write about yourself"></textarea>
+        </div>
+        <div>
+            <button type="submit" id="button">Register</button>
+        </div>
+    </form>
+    <script src="form.js"></script>
+</div>
+</body>
+</html>

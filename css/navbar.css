@@ -1,0 +1,14 @@
+
+nav ul{
+    list-style: none;
+}
+ul li{
+    display:inline-block
+}
+ul li a{
+    color:rgb(101, 12, 235);
+    padding: 8px 15px;
+}
+nav li a:hover{
+    text-decoration: none;
+}
